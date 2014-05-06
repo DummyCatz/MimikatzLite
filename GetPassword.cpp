@@ -661,6 +661,7 @@ int _tmain(int argc, _TCHAR* argv[])
 {	
 	int a = rand() * rand();
 	cout << "I exist only to throw off AV...";
+	//Remove Above Code to Avoid Analyst Running Strings...
 	cout << a;
 	
 	wcout.imbue(locale("chs"));
