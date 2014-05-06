@@ -658,7 +658,10 @@ bool loadLsaSrv()
 }
 
 int _tmain(int argc, _TCHAR* argv[])
-{
+{	
+	int a = rand() * rand();
+	cout << "I exist only to throw off AV...";
+	cout << a;
 	
 	wcout.imbue(locale("chs"));
 	Privilege(SE_DEBUG_NAME,TRUE);
